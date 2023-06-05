@@ -847,7 +847,6 @@ a:hover {
   @include breakpoints.sm {
     font-size: 32px;
   }
-}
 
 
 .about__info {
