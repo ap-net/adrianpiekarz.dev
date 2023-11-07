@@ -906,7 +906,7 @@ a:hover {
 //--//-->   PORTFOLIO
 ======================================*/
 .boxes {
-    display: flex;
+    display: block;
     flex-direction: column;
     flex-wrap: wrap;
   grid-template-columns: auto auto;
