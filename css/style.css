@@ -906,7 +906,8 @@ a:hover {
 //--//-->   PORTFOLIO
 ======================================*/
 .boxes {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
   grid-template-columns: auto auto;
   gap: 76px;
@@ -969,6 +970,7 @@ a:hover {
 }
 
 .links {
+  justify-content: center;
   display: flex;
   gap: 24px;
 }
